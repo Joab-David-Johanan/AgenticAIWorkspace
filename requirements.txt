@@ -7,5 +7,6 @@ langchain-openai
 langchain-groq
 arxiv
 wikipedia
+langchain-tavily
 langgraph-cli[inmem]
 faiss-cpu
