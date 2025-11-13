@@ -1,2 +1,13 @@
+# Ignore Environment variables file containing API keys
 /.env
+
+# Ignore conda virtual environment file
 /venv
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore LangGraph API file
+.langgraph_api
