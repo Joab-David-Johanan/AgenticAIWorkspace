@@ -1,12 +1,24 @@
-langchain
-langgraph
-langchain-core
-langchain-community
-python-dotenv
-langchain-openai
-langchain-groq
+# Core LangChain packages
+langchain>=0.2.10
+langchain-core>=0.2.10
+langchain-community>=0.2.10
+langchainhub>=0.1.21
+
+# LangGraph
+langgraph>=0.1.0
+langgraph-cli[inmem]>=0.1.0
+
+# Model providers
+langchain-openai>=0.1.0
+langchain-groq>=0.1.0
+
+# Tools
 arxiv
 wikipedia
-langchain-tavily
-langgraph-cli[inmem]
+langchain-tavily>=0.0.10
+
+# Vectorstores
 faiss-cpu
+
+# Environment variable loader
+python-dotenv
