@@ -23,4 +23,5 @@ faiss-cpu
 # Environment variable loader
 python-dotenv
 
+# for arxiv
 pymupdf
